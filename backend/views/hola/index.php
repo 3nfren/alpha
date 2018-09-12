@@ -1,0 +1,1 @@
+<h1>Siguenos en twitter <?php echo $twitter;?> </h1>
