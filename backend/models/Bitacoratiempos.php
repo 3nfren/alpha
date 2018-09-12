@@ -94,6 +94,10 @@ class Bitacoratiempos extends \yii\db\ActiveRecord
         echo "Otro commit agragado";
     }
 
+    public function ramaCommit(){
+        echo "rama commit";
+    }
+
     /**
      * @return \yii\db\ActiveQuery
      */
