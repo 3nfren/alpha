@@ -70,7 +70,7 @@ class Bitacoratiempos extends \yii\db\ActiveRecord
             'idUsuario' => Yii::t('app', 'Id Usuario'),
         ];
     }
-
+    /*
     public function beforeSave($insert) {
         $fechaHoraInicio = date_create_from_format('h:i a', $this->HoraInicio);
         $fechaHoraFinal = date_create_from_format('h:i a', $this->HoraFinal);
@@ -85,7 +85,10 @@ class Bitacoratiempos extends \yii\db\ActiveRecord
         $this->idUsuario = Yii::$app->user->id;
         return true;
     }
-
+  */
+    public function ejemploGit(){
+        echo "ejemploGit";
+    }
 
     /**
      * @return \yii\db\ActiveQuery
