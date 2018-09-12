@@ -90,6 +90,10 @@ class Bitacoratiempos extends \yii\db\ActiveRecord
         echo "ejemploGit";
     }
 
+    public function otroCommit(){
+        echo "Otro commit agragado";
+    }
+
     /**
      * @return \yii\db\ActiveQuery
      */
