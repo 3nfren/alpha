@@ -86,6 +86,9 @@ class Bitacoratiempos extends \yii\db\ActiveRecord
         return true;
     }
 
+    public function ramaGitHub(){
+        echo "Rama en ramaGitHub";
+    }
 
     /**
      * @return \yii\db\ActiveQuery
